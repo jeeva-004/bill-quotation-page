@@ -1,0 +1,510 @@
+*{
+    margin:0;
+}
+
+input, select, textarea{
+    border:1px solid #901454;
+}
+
+.container{
+    margin: 90px auto;
+    width:1100px;
+    font-family: "Oxygen", sans-serif;
+    box-shadow: 2px 2px 15px rgba(92, 90, 90,.7);
+    border-radius: 20px;
+    background-color: white;
+}
+
+#h2-one{
+    background-color:#901454;
+    color:white;
+    padding: 10px 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.first-part{
+    display: flex;
+    column-gap: 35px;
+    padding: 10px 30px 25px;
+    justify-content: space-around;
+}
+
+.first-first{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex:1;
+}
+
+.first-second{
+    display: flex;
+    column-gap: 20px;
+    flex:1;
+}
+
+.first-first input{
+    width:445px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.first-second input{
+    width:320px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.first-second label{
+    margin-bottom: 10px;
+}
+
+.btn-search{
+    width:120px;
+    height: 40px;
+    margin-top: 48px;
+    padding: 5px 8px;
+    color: white;
+    background-color:green;
+    border: none;
+    border-radius:7px;
+    cursor: pointer;    
+}
+
+.btn-search:hover{
+    opacity: .9;
+}
+
+#h2-two{
+    background-color:#901454;
+    color:white;
+    padding: 10px 15px;
+}
+
+.second-part{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 40px;
+    row-gap: 20px;
+    padding: 10px 30px 35px;
+}
+
+.second-first{
+    flex: 1;
+}
+
+.second-second{
+    flex: 1;
+}
+
+.second-first-items{
+    display: flex;
+    row-gap: 5px;
+    flex-direction: column;
+}
+
+.second-second-items{
+    display: flex;
+    row-gap: 5px;
+    flex-direction: column;
+}
+
+.second-part input{
+    width:450px;
+    padding: 9px 20px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.second-part select{
+    width:495px;
+    padding: 9px 20px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.third-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 25px;
+}
+
+.third-first-first{
+    flex:1;
+    font-size: 16px;
+    display: flex;
+    margin-top: 3px;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.third-first-second{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.third-first-third{
+    flex:2;
+}
+
+.third-first-second div{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.third-third-sub1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#label-one{
+    display: inline;
+    margin-left: 292px;
+}
+
+#label-two{
+    margin-left: 194px;
+    display: inline;
+}
+
+.select-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.select-div select{
+    width: 230px;
+    padding: 9px 20px;
+    margin: 5px 0 10px 0;
+    border-radius: 8px;
+}
+
+.third-third-sub1 div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.third-third-sub1 div input{
+    width:450px;
+    margin: 5px 0 10px 20px;
+    padding: 9px 20px;
+    border-radius: 8px;
+}
+
+.fourth-part{
+    display: flex;
+    padding: 10px 30px 25px;
+}
+
+.fourth-part label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fourth-first{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+
+.fourth-second{
+    display: flex;
+    flex:1;
+    justify-self: center;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.fourth-first input{
+    width:485px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.fourth-second input{
+    width: 495px;    
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.fifth-part{
+    display: flex;
+    padding: 10px 30px 25px;
+}
+
+.fifth-first, .fifth-second{
+    flex:1;
+}
+
+.fifth-second{
+    margin-left: 20px;
+}
+
+.fifth-first-sub1{
+    display: flex;
+    flex-direction: column;
+} 
+ 
+.fifth-first-sub2{
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-second-sub1{
+    display: flex;
+    flex-direction: column;
+} 
+ 
+.fifth-second-sub2{
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-part input{
+    width: 480px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.fifth-second input{
+    width: 500px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.fifth-part label{
+    margin-bottom: 8px;
+}
+
+.sixth-part{
+    display: flex;
+    column-gap: 10px;
+    padding: 10px 30px 25px;
+}
+
+.sixth-one{
+    flex: 1;
+}
+
+.sixth-two{
+    flex: 1;
+}
+
+.sixth-three{
+    flex: 1;
+}
+
+.sixth-part label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sixth-part input{
+    width: 330px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.search{
+    padding: 10px 30px 5px;
+}
+
+.search label{
+   display: block;
+   margin-bottom: 8px;
+}
+
+.search input{
+    width:46%;
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+ }
+
+ .table {
+    width: 1010px;
+    padding: 10px 25px 25px;
+    overflow-x: auto;
+ }
+
+.for-scroll{
+    max-width: 300px;
+    white-space:nowrap;
+}
+
+table{
+    width:300px;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+tbody input{
+    width:100px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#input{
+    width:250px;
+}
+
+th, td{
+    margin:5px 10px;
+    padding: 5px 10px;
+}
+
+th{
+    background-color:#901454;
+    padding: 5px 10px;
+    border:2px solid white;
+    color:white;    
+}
+
+td{
+    border: 0px 1px 1px 1px;
+}
+
+#for-radius{
+    border-top-left-radius: 8px;
+}
+
+.for-radius{
+    border-top-right-radius: 8px;
+}
+
+#second-table{
+    margin-bottom: 10px;
+}
+
+.btn{
+    width:45px;
+    height: 35px;
+    padding: 5px 8px;
+    color: white;
+    background-color:green;
+    border: none;
+    border-radius:7px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: .9;
+}
+
+
+.description{
+    padding: 10px 25px 25px;
+}
+
+.description label{
+    display: block;
+    margin-bottom: 10px;
+}
+#text-area{
+    width:500px;
+    height:70px;
+}
+
+.seven-part{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px 25px;
+    column-gap: 40px;
+}
+
+.seven-part input, label{
+    display: block;
+}
+
+.seven-first, .seven-second, .seven-third, .seven-fourth{
+    display: flex;
+    flex: 1;
+}
+
+.seven-first div, .seven-second div, .seven-third div, .seven-fourth div{
+    flex: 1;
+    margin-right: 14px;
+}
+
+.seven-part input{
+    width:340px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;   
+}
+
+.seven-four select, label{
+    margin-top: 14px;
+}
+
+.seven-four select{
+    width:340px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;   
+}
+
+.eight-part{
+    display: flex;
+    padding: 10px 25px 25px;
+}
+
+.eight-first, .eight-second{
+    flex:1;
+}
+
+.eight-first label{
+    display: block;
+}
+
+.eight-second{
+    display: flex;
+    justify-self: end;
+    align-items:center;
+    justify-content: end;
+}
+
+.eight-first textarea{
+    width:500px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.eight-first label{
+    margin-bottom: 10px;
+}
+
+
+.btn-save button{
+    width:150px;
+    height: 50px;
+    padding: 5px 8px;
+    color: white;
+    background-color:green;
+    border: none;
+    border-radius:7px;
+    cursor: pointer;
+}
+
+.btn-save :hover{
+    opacity: .9;
+}

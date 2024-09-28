@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quotation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Quotation</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="h2-one">New Quotation - Test</h2>
+        <div class="first-part">
+            <div class="first-first">
+                <label for="Search-customer">Search Customer</label>
+                <input type="text" id="Search-customer" name="search-customer">
+            </div>
+
+            <div class="first-second">
+                <div class="first-second-sub">
+                <label for="Customer-code">Search Customer Code</label>
+                <input type="text" name="Customer-code" id="Customer-code">
+            </div>
+            <button class="btn-search">Search</button>
+            </div>
+        </div>
+
+        <h2 id="h2-two">Quotation - New</h2>
+        <div class="second-part">
+            <div class="second-first">
+                <div class="second-first-items">
+                    <label for="Cus-name">Customer Name<sup style="color: red;">*</sup></label>
+                    <input type="text" id="Cus-name" name="Cus-name">
+                </div>
+
+                <div class="second-first-items">
+                    <label for="Cus-address">Address</label>
+                    <input type="text" id="Cus-address" name="Cus-address">
+                </div>
+
+                <div class="second-first-items">
+                    <label for="Cus-location">Location</label>
+                    <input type="text" id="Cus-location" name="location">
+                </div>
+
+                <div class="second-first-items">
+                    <label for="Cus-state">State<sup style="color: red;">*</sup></label>
+                    <input type="text" id="Cus-state" name="Cus-state">
+                </div>
+
+            </div>
+
+            <div class="second-second">
+                <div class="second-second-items">
+                    <label for="template">Select Template</label>
+                    <select name="template" id="template" placeholder="select">
+                        <option value="type-I">Type - I</option>
+                        <option value="type-II">Type - II</option>
+                        <option value="type-III">Type - III</option>
+                    </select>
+                </div>
+
+                <div class="second-second-items">
+                    <label for="code">Customer Code</label>
+                    <input type="text" id="code" name="code">
+                </div>
+
+                <div class="second-second-items">
+                    <label for="Cus-city">City <sup style="color: red;">*</sup></label>
+                    <input type="text" id="Cus-city" name="Cus-city">
+                </div>
+
+                <div class="second-second-items">
+                    <label for="Cus-pincode">Pincode</label>
+                    <input type="number" id="Cus-pincode" name="Cus-pincode">
+                </div>
+            </div>
+
+        </div>
+
+        <label for="mr-ms" id="label-one">Mr. / Ms.</label>
+        <label for="person-name" id="label-two">Person Name</label>
+
+        <div class="third-part">
+            <div class="third-first-first">
+                <p>Kind Attn 1: (Optional)</p>
+                <p>Kind Attn 2: (Optional)</p>
+                <p>Kind Attn 3: (Optional)</p>
+            </div>
+            <div class="third-first-second">
+                <div class="select-div">
+                    <select name="mr-ms" id="mr-ms">
+                        <option value="Mr">Mr</option>
+                        <option value="Ms">Ms</option>
+                    </select>
+
+                    <select name="mr-ms" id="mr-ms">
+                        <option value="Mr">Mr</option>
+                        <option value="Ms">Ms</option>
+                    </select>
+
+                    <select name="mr-ms" id="mr-ms">
+                        <option value="Mr">Mr</option>
+                        <option value="Ms">Ms</option>
+                    </select>
+                </div>
+            </div>
+            <div class="third-first-third">
+                <div class="third-third-sub1">
+                    <div>
+                        <input type="text" id="person-name" name="person-name">
+                        <input type="text" id="person-name" name="person-name">
+                        <input type="text" id="person-name" name="person-name">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fourth-part">
+
+            <div class="fourth-first">
+                <label for="Designation-name">Designation Name</label>
+                <input type="text" name="Designation-name" id="Designation-name">
+                <input type="text" name="Designation-name" id="Designation-name">
+                <input type="text" name="Designation-name" id="Designation-name">
+            </div>
+
+            <div class="fourth-second">
+                <label for="Depart-name">Department Name</label>
+                <input type="text" id="Depart-name" name="Depart-name">
+                <input type="text" id="Depart-name" name="Depart-name">
+                <input type="text" id="Depart-name" name="Depart-name">
+            </div>
+
+        </div>
+
+        <div class="fifth-part">
+            <div class="fifth-first">
+                <div class="fifth-first-sub1">
+                    <label for="Quotation-no-prefix">Quotation Number Prefix</label>
+                    <input type="text" name="quation-number" id="Quotation-no-prefix">
+                </div>
+
+                <div class="fifth-first-sub2">
+                    <label for="Begin-with">Begin With</label>
+                    <input type="text" name="Begin-with" id="Begin-with">
+                </div>
+            </div>
+
+            <div class="fifth-second">
+                <div class="fifth-second-sub1">
+                    <label for="Quotation-date">Quotation Date</label>
+                    <input type="date" name="Quotation-date" id="Quotation-date">
+                </div>
+
+                <div class="fifth-second-sub2">
+                    <label for="Quotation-Number">Quotation Number</label>
+                    <input type="number" name="Quotation-Number" id="Quotation-Number">
+                </div>
+            </div>
+        </div>
+
+        <div class="sixth-part">
+
+            <div class="sixth-one">
+                <label for="sub">Sub :</label>
+                <input type="text" name="sub" id="sub">
+            </div>
+
+            <div class="sixth-two">
+                <label for="Ref">Ref :</label>
+                <input type="text" name="Ref" id="Ref">
+            </div>
+
+            <div class="sixth-three">
+                <label for="Quotatin-start-text">Quotation Start Text</label>
+                <input type="text" name="Quotatin-start-text" id="Quotatin-start-text">
+            </div>
+
+        </div>
+
+        <div class="search">
+            <label for="item-search">Item Search</label>
+            <input type="text" name="item-search" id="item-search">
+        </div>
+
+        <div class="table">
+            <table class="for-scroll" cellspacing="10">
+                <thead>
+                    <th id="for-radius">No.</th>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Unit</th>
+                    <th>Rate</th>
+                    <th>Qty</th>
+                    <th>Sub</th>
+                    <th>Dsc %</th>
+                    <th>Dsc</th>
+                    <th>Tax %</th>
+                    <th>Total</th>
+                    <th  class="for-radius"></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="number"></td>
+                        <td><input type="number"></td>
+                        <td><input id="input" type="text"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><button class="btn">Add</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="description">
+            <label for="text-area">Description</label>
+            <textarea name="description" id="text-area"></textarea>
+        </div>
+
+        <div id="second-table" class="table">
+            <table class="for-scroll" cellspacing="10">
+                <thead>
+                    <th id="for-radius">No.</th>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Unit</th>
+                    <th>Rate</th>
+                    <th>Qty</th>
+                    <th>Sub</th>
+                    <th>Dsc %</th>
+                    <th>Dsc</th>
+                    <th>Tax %</th>
+                    <th>Total</th>
+                    <th  class="for-radius"></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="number"></td>
+                        <td><input type="number"></td>
+                        <td><input id="input" type="text"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><input type="number"></td>
+                        <td><input type="number" placeholder="0.00"></td>
+                        <td><button class="btn">Add</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="seven-part">
+            <div class="seven-first">
+                <div>
+                    <label for="total-amount">Sub Total Amount</label>
+                    <input type="number" id="total-amount" placeholder="0.00">
+                </div>
+
+                <div>
+                    <label for="vat">VAT 5.00%</label>
+                    <input type="number" id="vat" placeholder="0.00">
+                </div>
+
+                <div>
+                    <label for="tax-">TAX</label>
+                    <input type="number" id="tax-" placeholder="0.00">
+                </div>
+                
+            </div>
+
+            <div class="seven-second">
+                <div>
+                    <label for="gst-">GST 18%</label>
+                    <input type="number" id="gst-" placeholder="0.00">
+                </div>
+
+                <div>
+                    <label for="cgst-">CGST</label>
+                    <input type="number" id="cgst-" placeholder="0.00">
+                </div>
+
+                <div>
+                    <label for="sgst-">SGST</label>
+                    <input type="number" id="sgst-" placeholder="0.00">
+                </div>
+            </div>
+
+            <div class="seven-third">
+                <div>
+                    <label for="after-tax">Total After Tax</label>
+                    <input type="number" id="after-tax" placeholder="0.00">
+                </div>
+
+                <div>
+                    <label for="package-charge">Packaging Charges</label>
+                    <input type="number" id="package-charge" placeholder="0.00">
+                </div>
+
+                <div>
+                    <label for="delivery-charges">Delivery Charges</label>
+                    <input type="number" id="delivery-charges" placeholder="0.00">
+                </div>
+
+            </div>
+
+            <div class="seven-fourth">
+                <div>
+                    <label for="round-charges">Round Charges</label>
+                    <input type="number" id="round-charges" placeholder="0.00">
+                </div>
+                
+                <div>
+                    <label for="total-amount-">Total Amount</label>
+                    <input type="number" id="total-amount-" placeholder="0.00">
+                </div>
+
+                <div class="seven-four">
+                    <label for="select-type">Select Type</label>
+                    <select name="select-type" id="select-type" >
+                        <option value="type-1">Type-1</option>
+                        <option value="type-2">Type-2</option>
+                        <option value="type-3">Type-3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="eight-part">
+            <div class="eight-first">
+                <label for="term-conditions">Terms & Conditions</label>
+                <textarea name="term-conditions" id="term-conditions"></textarea>
+            </div>
+
+            <div class="eight-second">
+            <div class="btn-save">
+                <button>Save Quotation</button>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
